@@ -57,6 +57,10 @@
             "install-path": "vendor/ircmaxell/password-compat",
             "installer": "composer"
         },
+        "issei-m/puli-test": {
+            "install-path": "vendor/issei-m/puli-test",
+            "installer": "composer"
+        },
         "jdorn/sql-formatter": {
             "install-path": "vendor/jdorn/sql-formatter",
             "installer": "composer"

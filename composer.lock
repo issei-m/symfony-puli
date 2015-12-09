@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a86b02a55e2bc5774a29186537dd361f",
-    "content-hash": "40f819c8ef7263c6ac6a20c31a294fbd",
+    "hash": "1f7848780b1140d6909e18c3e06e419d",
+    "content-hash": "2aed86519f9e5381b0fedc42a7d2e9a5",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -864,6 +864,31 @@
                 "password"
             ],
             "time": "2014-11-20 16:49:30"
+        },
+        {
+            "name": "issei-m/puli-test",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/issei-m/puli-test.git",
+                "reference": "d7e50df17d5975e2eae6ec1f70592818a0ac95db"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/issei-m/puli-test/zipball/d7e50df17d5975e2eae6ec1f70592818a0ac95db",
+                "reference": "d7e50df17d5975e2eae6ec1f70592818a0ac95db",
+                "shasum": ""
+            },
+            "type": "library",
+            "license": [
+                "MIT"
+            ],
+            "description": "Test of Puli.",
+            "support": {
+                "source": "https://github.com/issei-m/puli-test/tree/master",
+                "issues": "https://github.com/issei-m/puli-test/issues"
+            },
+            "time": "2015-12-02 17:24:43"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -3293,7 +3318,9 @@
     ],
     "aliases": [],
     "minimum-stability": "beta",
-    "stability-flags": [],
+    "stability-flags": {
+        "issei-m/puli-test": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

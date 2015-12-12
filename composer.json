@@ -1,7 +1,4 @@
 {
-    "name": "issei/puli.symfony",
-    "license": "proprietary",
-    "type": "project",
     "autoload": {
         "psr-4": {
             "": "src/"
@@ -22,9 +19,8 @@
         "incenteev/composer-parameter-handler": "~2.0",
         "puli/symfony-bundle": "~1.0",
         "puli/twig-extension": "~1.0",
-        "puli/composer-plugin": "~1.0",
         "puli/cli": "~1.0",
-        "issei-m/puli-test": "dev-master"
+        "issei-m/puli-test": "dev-master#9d46daa9bc84fac0515052d906542edcbb5c0092"
     },
     "require-dev": {
         "sensio/generator-bundle": "~3.0",

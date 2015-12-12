@@ -1,5 +1,5 @@
 _wdt:
-    resource: "@WebProfilerBundle/Resources/config/routing/wdt.xml"
+    resource: "/symfony/web-profiler-bundle/config/routing/wdt.xml"
     prefix:   /_wdt
 
 _profiler:

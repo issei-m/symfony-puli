@@ -1,6 +1,9 @@
 {
     "version": "1.0",
-    "name": "issei/puli.symfony",
+    "path-mappings": {
+        "/app": "app/Resources",
+        "/config": "app/config"
+    },
     "config": {
         "bootstrap-file": "vendor/autoload.php"
     },
